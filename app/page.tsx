@@ -168,7 +168,7 @@ export default function Home() {
               </svg>
             </div>
             <div className="min-w-0">
-              <h2 className="text-white font-bold text-sm sm:text-base truncate">Suriname Bouwtekenaar</h2>
+              <h2 className="text-white font-bold text-sm sm:text-base truncate"> Bouwtekenaar</h2>
               <p className="text-purple-100 text-xs">Online • Instant Response</p>
             </div>
           </div>
