@@ -25,7 +25,7 @@ export default function Home() {
     {
       id: 1,
       role: 'assistant',
-      content: "Welcome to Suriname Bouwtekenaar! 🏠 I'm here to help with our services. How can I assist you today?",
+      content: "Welcome to Bouwtekenaar! I’m your AI assistant. How can I assist you today?",
       timestamp: new Date(),
     },
   ]);
@@ -105,7 +105,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-fuchsia-50">
       {/* Landing Page Content */}
-      <div className="container mx-auto px-4 py-8 sm:py-12 md:py-16">
+      {/* <div className="container mx-auto px-4 py-8 sm:py-12 md:py-16">
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-purple-600 to-fuchsia-600 bg-clip-text text-transparent mb-3 sm:mb-4">
             Suriname Bouwtekenaar
@@ -131,7 +131,7 @@ export default function Home() {
             👉 Click the chat button in the bottom right to chat with us!
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Chatbot Toggle Button */}
       <button
