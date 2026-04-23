@@ -241,7 +241,7 @@ export default function Home() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Ask your question..."
-              className="flex-1  text-white px-4 py-2.5 border-2 border-purple-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all duration-200 text-sm font-medium text-black placeholder-gray-400 min-w-0"
+              className="flex-1  text-white px-4 py-2.5 border-2 border-purple-200 rounded-xl focus:ring-2 focus:ring-purple-500 focus:border-purple-500 transition-all duration-200 text-sm font-medium  placeholder-gray-400 min-w-0"
               disabled={isLoading}
             />
             <button
