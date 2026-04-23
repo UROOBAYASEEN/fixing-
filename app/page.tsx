@@ -194,7 +194,7 @@ export default function Home() {
                 className={`max-w-[85%] rounded-2xl px-3 py-2 shadow-md break-words overflow-wrap-anywhere ${
                   message.role === 'user'
                     ? 'bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white'
-                    : 'bg-gry from-violet-100 to-purple-100 text-white border border-purple-200'
+                    : 'bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white'
                 }`}
               >
                 <div className="flex items-center gap-1.5 mb-1">
@@ -206,7 +206,7 @@ export default function Home() {
                   <span className={`text-xs font-semibold ${message.role === 'user' ? 'text-purple-100' : 'text-purple-700'}`}>
                     {message.role === 'user' ? 'You' : 'Assistant'}
                   </span>
-                </div>
+                </div>e border border-purple-200'
                 <p className="text-xs leading-relaxed break-words whitespace-pre-wrap text-black overflow-hidden">{message.content}</p>
                 <p className={`text-xs mt-1 ${message.role === 'user' ? 'text-purple-200' : 'text-purple-500'}`}>
                   {isMounted ? message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : ''}
