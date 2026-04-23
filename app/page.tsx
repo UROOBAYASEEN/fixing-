@@ -154,7 +154,7 @@ export default function Home() {
 
       {/* Chat Window */}
       <div
-        className={`fixed bottom-20 right-4 sm:bottom-24 sm:right-6 w-[calc(100vw-2rem)] sm:w-[380px] md:w-[400px] bg-white/90 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20 transition-all duration-300 transform origin-bottom-right z-50 flex flex-col ${
+        className={`fixed bottom-20 right-4 sm:bottom-24 sm:right-6 w-[calc(100vw-2rem)]  text-white sm:w-[380px] md:w-[400px] bg-black backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20 transition-all duration-300 transform origin-bottom-right z-50 flex flex-col ${
           isChatOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'
         }`}
         style={{ height: '550px', maxHeight: 'calc(100vh - 100px)' }}
