@@ -194,7 +194,7 @@ export default function Home() {
                 className={`max-w-[85%] rounded-2xl px-3 py-2 shadow-md break-words overflow-wrap-anywhere ${
                   message.role === 'user'
                     ? 'bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white'
-                    : 'bg-gradient-to-r from-violet-100 to-purple-100 text-gray-800 border border-purple-200'
+                    : 'bg-gry from-violet-100 to-purple-100 text-white border border-purple-200'
                 }`}
               >
                 <div className="flex items-center gap-1.5 mb-1">
