@@ -184,7 +184,7 @@ export default function Home() {
         </div>
 
         {/* Messages Container */}
-        <div className="flex-1 overflow-y-auto px-3 sm:px-4 py-3 space-y-3">
+        <div className="flex-1 overflow-y-auto px-3 sm:px-4 py-3 space-y-3 bg-black text-white">
           {messages.map((message) => (
             <div
               key={message.id}
