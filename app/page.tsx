@@ -234,7 +234,7 @@ export default function Home() {
         </div>
 
         {/* Input Form */}
-        <div className="border-t border-purple-100 p-3 sm:p-4 bg-white/50 backdrop-blur rounded-b-2xl flex-shrink-0">
+        <div className="border-t border-purple-100 p-3 sm:p-4 bg-black text-white backdrop-blur rounded-b-2xl flex-shrink-0">
           <form onSubmit={handleSubmit} className="flex gap-2">
             <input
               type="text"
