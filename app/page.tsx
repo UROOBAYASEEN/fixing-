@@ -206,7 +206,7 @@ export default function Home() {
                   <span className={`text-xs font-semibold ${message.role === 'user' ? 'text-purple-100' : 'text-purple-700'}`}>
                     {message.role === 'user' ? 'You' : 'Assistant'}
                   </span>
-                </div>e border border-purple-200'
+                </div>
                 <p className="text-xs leading-relaxed break-words whitespace-pre-wrap text-black overflow-hidden">{message.content}</p>
                 <p className={`text-xs mt-1 ${message.role === 'user' ? 'text-purple-200' : 'text-purple-500'}`}>
                   {isMounted ? message.timestamp.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : ''}
