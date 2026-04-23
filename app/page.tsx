@@ -103,7 +103,7 @@ export default function Home() {
     }
   };
   return (
-    <div className="min-h-screen bg-gradient-to-br from-violet-50 via-purple-50 to-fuchsia-50">
+    <div className="min-h-screen text-white from-violet-50 via-purple-50 to-fuchsia-50 bg-black">
       {/* Landing Page Content */}
       {/* <div className="container mx-auto px-4 py-8 sm:py-12 md:py-16">
         <div className="text-center mb-8 sm:mb-10 md:mb-12">
@@ -136,7 +136,7 @@ export default function Home() {
       {/* Chatbot Toggle Button */}
       <button
         onClick={() => setIsChatOpen(!isChatOpen)}
-        className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-14 h-14 sm:w-16 sm:h-16 bg-gradient-to-r from-purple-600 to-fuchsia-600 text-white rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 z-50 ${
+        className={`fixed bottom-4 right-4 sm:bottom-6 sm:right-6 w-14 h-14 sm:w-16 sm:h-16 bg-black text-white from-purple-600 to-fuchsia-600 text-white rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 z-50 ${
           isChatOpen ? 'rotate-90' : ''
         }`}
         title="Open chat"
